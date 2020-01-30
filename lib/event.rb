@@ -1,5 +1,5 @@
 class Event
-  attr_reader :name, :float_ages
+  attr_reader :name, :float_age
   attr_accessor :ages
 
   def initialize(name_parameter, ages_parameter)
@@ -16,13 +16,15 @@ class Event
     ages.min
   end
 
-
-
   def average_age
     ages.each do |age|
       puts @float_age << age.to_f
     end
-    ages.sum / ages.count
+    float_age.sum / float_age.count
+  end
+
+  def standard_deviation_age
+
   end
 
 end

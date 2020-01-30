@@ -33,5 +33,4 @@ puts new_division_answer
 
 final_answer = Math.sqrt(new_division_answer)
 
-puts "The Standard Deviation is "
 puts final_answer.round(2)
