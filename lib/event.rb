@@ -25,9 +25,7 @@ class Event
 
   def standard_deviation_age
 
+
   end
 
 end
-
-
-require "pry"; binding.pry
