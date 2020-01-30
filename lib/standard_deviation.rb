@@ -26,12 +26,12 @@ ages.each do |age|
 end
 
 new_sum_of_array = new_array.sum
-print new_sum_of_array
+puts new_sum_of_array
 
 new_division_answer = new_sum_of_array / ages.count
-print new_division_answer
+puts new_division_answer
 
 final_answer = Math.sqrt(new_division_answer)
 
-print "The Standard Deviation is "
-print final_answer.round(2)
+puts "The Standard Deviation is "
+puts final_answer.round(2)
