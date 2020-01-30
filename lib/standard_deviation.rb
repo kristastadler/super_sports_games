@@ -32,12 +32,6 @@ new_division_answer = new_sum_of_array / ages.count
 print new_division_answer
 
 final_answer = Math.sqrt(new_division_answer)
+
+print "The Standard Deviation is "
 print final_answer.round(2)
-
-
-
-
-
-# Your code here for calculating the standard deviation
-
-# When you find the standard deviation, print it out
